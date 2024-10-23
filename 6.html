@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lane = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="Viewport" content = "width=device-width, intial-scale=1.0">
+        <title>Leaflet Map</title>
+        <link rel = "stylesheet" href = "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+        <style>
+            #map  {
+            height: 400px;
+            width: 100%;
+            }
+            .marker-info {
+                margin-top: 10px
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Leafflet Map with Markers</h1>
+        <div id = "map" ></div>
+        <div class="marker-info" id="marker1">Marker 1: <span id="coords1"></span></div>
+        <div class="marker-info" id="locality1">Locality: Teaxs <span></span></div>
+
+        <div class="marker-info" id="marker1">Marker 2: <span id="coords2"></span></div>
+        <div class="marker-info" id="locality1">Locality: District 2 <span></span></div>
+
+        <div class="marker-info" id="marker1">Marker 3: <span id="coords3"></span></div>
+        <div class="marker-info" id="locality1">Locality: Distrtict 3<span></span></div>
+
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="6.js"></script>
+    </body>    
+</html>
